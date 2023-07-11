@@ -1,0 +1,46 @@
+.ap-po-details {
+  box-shadow: 0 5px 20px rgba(var(--color-lighten-rgba),.1);
+  padding: 40px 25px 40px 25px;
+  background-color: var(--bg-white);
+
+
+
+  .overview-content {
+    p {
+      margin: 0px 0 7px;
+      color: var(--color-gray);
+      @include ofs(16px, lh(16px, 20px), 400);
+      text-transform: capitalize;
+    }
+  }
+
+  @include e(icon-area) {
+    .svg-icon {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      @extend .content-center;
+
+      &--1 {
+        background-color: rgba(var(--color-secondary-rgba), .15);
+      }
+
+      &--2 {
+        background-color: rgba(var(--color-warning-rgba), .15);
+      }
+
+      &--3 {
+        background-color: rgba(var(--color-success-rgba), .15);
+      }
+
+      &--4 {
+        background-color: rgba(var(--color-info-rgba), .15);
+      }
+
+
+    }
+  }
+
+
+
+}

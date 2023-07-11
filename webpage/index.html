@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- title -->
+  <title>MailDash</title>
+
+  <!-- tab-logo -->
+
+  <link rel="icon" href="/assets/icons/tab-logo.png" alt="logo" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <!--  CSS  -->
+
+  <!-- <link rel="stylesheet" href="/public/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="/public/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/scss/app-vendor/css/fontawesome.css">
+  <link rel="stylesheet" href="/assets/scss/app-vendor/css/line-awesome.min.css">
+  <link rel="stylesheet" href="/assets/scss/app-vendor/css/trumbowyg.min.css">
+  <link rel="stylesheet" href="/assets/scss/app-vendor/css/select2.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/line.css">
+
+
+
+  <!-- Main-Css -->
+  <link rel="stylesheet" href="/assets/scss/app-vendor/css/loader.css">
+  <!--  <link rel="stylesheet" href="/public/css/app.min.css"> -->
+  <link rel="stylesheet" href="/public/css/app.min.css">
+
+
+</head>
+
+
+
+<body class="layout-light side-menu">
+  <div class="mobile-search">
+    <form action="/" class="search-form">
+      <img src="/assets/img/svg/search.svg" alt="search" class="svg">
+      <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
+    </form>
+  </div>
+  <div class="mobile-author-actions"></div>
+  <!-- header -->
+  <header class="header-top">
+    <nav class="navbar navbar-light curve">
+      <div class="navbar-left">
+        <div class="logo-area">
+          <a class="navbar-brand" href="index.html">
+            <img class="dark" src="/assets/img/author/logo-dark.png" alt="svg">
+            <img class="logo-icon" src="/assets/img/author/logo-img.png" alt="svg">
+          </a>
+        </div>
+        <a href="#" class="sidebar-toggle hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </a>
+        <form action="/" class="search-form-topMenu">
+          <input id="search-top" class="form-control box-shadow-none" type="search" placeholder="Search..."
+            aria-label="Search">
+          <label for="search-top" class="search-icon uil uil-search"></label>
+        </form>
+      </div>
+      <!-- ends: navbar-left -->
+      <div class="navbar-right">
+        <ul class="navbar-right__menu">
+          <li class="nav-search">
+            <a href="#" class="search-toggle">
+              <i class="uil uil-search"></i>
+              <i class="uil uil-times"></i>
+            </a>
+            <form action="/" class="search-form-topMenu">
+              <span class="search-icon uil uil-search"></span>
+              <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..."
+                aria-label="Search">
+            </form>
+          </li>
+          <!-- ends: nav-search -->
+          <li class="nav-message">
+            <div class="dropdown-custom">
+              <a href="javascript:;" class="nav-item-toggle icon-active">
+                <img class="svg" src="/assets/img/svg/message.svg" alt="img">
+              </a>
+              <div class="dropdown-parent-wrapper">
+                <div class="dropdown-wrapper">
+                  <h2 class="dropdown-wrapper__title">Messages <span class="badge-circle badge-success ms-1">2</span>
+                  </h2>
+                  <ul>
+                    <li class="author-online has-new-message">
+                      <div class="user-avater">
+                        <img src="/assets/img/team/tm1.png" alt="team">
+                      </div>
+                      <div class="user-message">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web
+                            Design</a>
+                          <span class="time-posted">3 hrs ago</span>
+                        </p>
+                        <p>
+                          <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                            ipsum
+                            dolor amet cosec Lorem ipsum</span>
+                          <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="author-offline has-new-message">
+                      <div class="user-avater">
+                        <img src="/assets/img/team/tm2.png" alt="">
+                      </div>
+                      <div class="user-message">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web
+                            Design</a>
+                          <span class="time-posted">3 hrs ago</span>
+                        </p>
+                        <p>
+                          <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                            ipsum
+                            dolor amet cosec Lorem ipsum</span>
+                          <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="author-online has-new-message">
+                      <div class="user-avater">
+                        <img src="/assets/img/team/tm3.png" alt="">
+                      </div>
+                      <div class="user-message">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web
+                            Design</a>
+                          <span class="time-posted">3 hrs ago</span>
+                        </p>
+                        <p>
+                          <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                            ipsum
+                            dolor amet cosec Lorem ipsum</span>
+                          <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="author-offline">
+                      <div class="user-avater">
+                        <img src="/assets/img/team/tm4.png" alt="">
+                      </div>
+                      <div class="user-message">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web
+                            Design</a>
+                          <span class="time-posted">3 hrs ago</span>
+                        </p>
+                        <p>
+                          <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                            ipsum
+                            dolor amet cosec Lorem ipsum</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="author-offline">
+                      <div class="user-avater">
+                        <img src="/assets/img/team/tm5.png" alt="">
+                      </div>
+                      <div class="user-message">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web
+                            Design</a>
+                          <span class="time-posted">3 hrs ago</span>
+                        </p>
+                        <p>
+                          <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                            ipsum
+                            dolor amet cosec Lorem ipsum</span>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="" class="dropdown-wrapper__more">See All Message</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- ends: nav-message -->
+          <li class="nav-notification">
+            <div class="dropdown-custom">
+              <a href="javascript:;" class="nav-item-toggle icon-active">
+                <img class="svg" src="/assets/img/svg/alarm.svg" alt="img">
+              </a>
+              <div class="dropdown-parent-wrapper">
+                <div class="dropdown-wrapper">
+                  <h2 class="dropdown-wrapper__title">Notifications <span
+                      class="badge-circle badge-warning ms-1">4</span>
+                  </h2>
+                  <ul>
+                    <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                      <div class="nav-notification__type nav-notification__type--primary">
+                        <img class="svg" src="/assets/img/svg/inbox.svg" alt="inbox">
+                      </div>
+                      <div class="nav-notification__details">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                          <span>sent you a message</span>
+                        </p>
+                        <p>
+                          <span class="time-posted">5 hours ago</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                      <div class="nav-notification__type nav-notification__type--secondary">
+                        <img class="svg" src="/assets/img/svg/send.svg" alt="upload">
+                      </div>
+                      <div class="nav-notification__details">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                          <span>sent you a message</span>
+                        </p>
+                        <p>
+                          <span class="time-posted">5 hours ago</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                      <div class="nav-notification__type nav-notification__type--success">
+                        <img class="svg" src="/assets/img/svg/edit.svg" alt="log-in">
+                      </div>
+                      <div class="nav-notification__details">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                          <span>sent you a message</span>
+                        </p>
+                        <p>
+                          <span class="time-posted">5 hours ago</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
+                      <div class="nav-notification__type nav-notification__type--info">
+                        <img class="svg" src="/assets/img/svg/download.svg" alt="at-sign">
+                      </div>
+                      <div class="nav-notification__details">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                          <span>sent you a message</span>
+                        </p>
+                        <p>
+                          <span class="time-posted">5 hours ago</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
+                      <div class="nav-notification__type nav-notification__type--danger">
+                        <img src="/assets/img/svg/edit.svg" alt="heart" class="svg">
+                      </div>
+                      <div class="nav-notification__details">
+                        <p>
+                          <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                          <span>sent you a message</span>
+                        </p>
+                        <p>
+                          <span class="time-posted">5 hours ago</span>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="" class="dropdown-wrapper__more">See all incoming activity</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- ends: .nav-notification -->
+          <li class="nav-settings">
+            <div class="dropdown-custom">
+              <a href="javascript:;" class="nav-item-toggle">
+                <img src="/assets/img/team/setting.png" alt="setting">
+              </a>
+              <div class="dropdown-parent-wrapper">
+                <div class="dropdown-wrapper dropdown-wrapper--large">
+                  <ul class="list-settings">
+                    <li class="d-flex">
+                      <div class="me-3"><img src="/assets/img/team/mail.png" alt=""></div>
+                      <div class="flex-grow-1">
+                        <h6>
+                          <a href="" class="stretched-link">All Features</a>
+                        </h6>
+                        <p>Introducing Increment subscriptions </p>
+                      </div>
+                    </li>
+                    <li class="d-flex">
+                      <div class="me-3"><img src="/assets/img/team/color-palette.png" alt=""></div>
+                      <div class="flex-grow-1">
+                        <h6>
+                          <a href="" class="stretched-link">Themes</a>
+                        </h6>
+                        <p>Third party themes that are compatible</p>
+                      </div>
+                    </li>
+                    <li class="d-flex">
+                      <div class="me-3"><img src="/assets/img/team/home.png" alt=""></div>
+                      <div class="flex-grow-1">
+                        <h6>
+                          <a href="" class="stretched-link">Payments</a>
+                        </h6>
+                        <p>We handle billions of dollars</p>
+                      </div>
+                    </li>
+                    <li class="d-flex">
+                      <div class="me-3"><img src="/assets/img/team/video-camera.png" alt=""></div>
+                      <div class="flex-grow-1">
+                        <h6>
+                          <a href="" class="stretched-link">Design Mockups</a>
+                        </h6>
+                        <p>Share planning visuals with clients</p>
+                      </div>
+                    </li>
+                    <li class="d-flex">
+                      <div class="me-3"><img src="/assets/img/team/document.png" alt=""></div>
+                      <div class="flex-grow-1">
+                        <h6>
+                          <a href="" class="stretched-link">Content Planner</a>
+                        </h6>
+                        <p>Centralize content gethering and editing</p>
+                      </div>
+                    </li>
+                    <li class="d-flex">
+                      <div class="me-3"><img src="/assets/img/team/microphone.png" alt=""></div>
+                      <div class="flex-grow-1">
+                        <h6>
+                          <a href="" class="stretched-link">Diagram Maker</a>
+                        </h6>
+                        <p>Plan user flows & test scenarios</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- ends: .nav-support -->
+          <li class="nav-author">
+            <div class="dropdown-custom">
+              <a href="javascript:;" class="nav-item-toggle"><img src="/assets/img/team/ellipse 3170.png" alt=""
+                  class="rounded-circle">
+                <span class="nav-item__title">Md. Rafiq<i class="las la-angle-down nav-item__arrow"></i></span>
+              </a>
+              <div class="dropdown-parent-wrapper">
+                <div class="dropdown-wrapper">
+                  <div class="nav-author__info">
+                    <div class="author-img">
+                      <img src="/assets/img/team/author-nav.jpg" alt="" class="rounded-circle">
+                    </div>
+                    <div>
+                      <h6>Saikat Hasan</h6>
+                      <span>UI Designer</span>
+                    </div>
+                  </div>
+                  <div class="nav-author__options">
+                    <ul>
+                      <li>
+                        <a href="">
+                          <i class="uil uil-user"></i> Profile</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="uil uil-setting"></i>
+                          Settings</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="uil uil-key-skeleton"></i> Billing</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="uil uil-users-alt"></i> Activity</a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i class="uil uil-bell"></i> Help</a>
+                      </li>
+                    </ul>
+                    <a href="login.html" class="nav-author__signout">
+                      <i class="uil uil-sign-out-alt"></i> Sign Out</a>
+                  </div>
+                </div>
+                <!-- ends: .dropdown-wrapper -->
+              </div>
+            </div>
+          </li>
+          <!-- ends: .nav-author -->
+        </ul>
+        <!-- ends: .navbar-right__menu -->
+        <div class="navbar-right__mobileAction d-md-none">
+          <a href="#" class="btn-search">
+            <img src="/assets/img/svg/search.svg" alt="search" class="svg feather-search">
+            <img src="/assets/img/svg/x.svg" alt="x" class="svg feather-x"></a>
+          <a href="#" class="btn-author-action">
+            <img class="svg" src="/assets/img/svg/more-vertical.svg" alt="more-vertical"></a>
+        </div>
+      </div>
+      <!-- ends: .navbar-right -->
+    </nav>
+  </header>
+  <!-- main -->
+  <main class="main-content">
+    <!-- sidebar -->
+    <aside class="sidebar-wrapper">
+      <div class="sidebar sidebar-collapse" id="sidebar">
+        <div class="sidebar__menu-group">
+          <!-- sidebar-nav -->
+          <ul class="sidebar_nav">
+            <li class="has-child open">
+              <a href="#" class="active">
+                <span class="nav-icon  uil uil uil-home"></span>
+                <span class="menu-text">Dashboard</span>
+                <span class="toggle-icon"></span>
+              </a>
+              <ul>
+                <li class="active">
+                  <a href="index.html">Demo 1</a>
+                </li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a href="#">
+                <span class="nav-icon uil uil-window-section"></span>
+                <span class="menu-text">Layouts</span>
+                <span class="toggle-icon"></span>
+              </a>
+              <ul>
+                <li class="layout">
+                  <a href="../rtl">RTL</a>
+                </li>
+                <li class="layout">
+                  <a href="../ltr">LTR</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-title mt-30">
+              <span>Applications</span>
+            </li>
+
+            <li class="has-child">
+              <a href="#" class="">
+                <span class="nav-icon uil uil-table"></span>
+                <span class="menu-text">Table</span>
+                <span class="toggle-icon"></span>
+              </a>
+              <ul>
+                <li class="">
+                  <a href="basic-table.html">Basic
+                    Table</a>
+                </li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a href="#" class="">
+                <span class="nav-icon uil uil-envelope"></span>
+                <span class="menu-text">Email</span>
+                <span class="toggle-icon"></span>
+              </a>
+              <ul>
+                <li class="active">
+                  <a href="inbox.html">inbox</a>
+                </li>
+                <li class="">
+                  <a href="read-email.html">Read
+                    Email</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-title mt-30">
+              <span>Features</span>
+            </li>
+            <li class="has-child">
+              <a href="#" class="">
+                <span class="nav-icon uil uil-layers"></span>
+                <span class="menu-text">UI Elements</span>
+                <span class="toggle-icon"></span>
+              </a>
+              <ul>
+                <li class="">
+                  <a href="buttons.html">Button</a>
+                </li>
+                <li class="">
+                  <a href="cards.html">Cards</a>
+                </li>
+                <li class="">
+                  <a href="checkbox.html">Checkbox</a>
+                </li>
+                <li class="">
+                  <a href="dropdown.html">Dropdown</a>
+                </li>
+              </ul>
+            </li>
+            <li class="has-child">
+              <a href="#" class="">
+                <span class="nav-icon uil uil-chart"></span>
+                <span class="menu-text">Charts</span>
+                <span class="toggle-icon"></span>
+              </a>
+              <ul>
+                <li class="">
+                  <a href="apexchart.html">Apex JS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-title mt-30">
+              <span>Pages</span>
+            </li>
+            <li>
+              <a href="pricing.html" class="">
+                <span class="nav-icon uil uil-bill"></span>
+                <span class="menu-text">Pricing</span>
+              </a>
+            </li>
+            <li>
+              <a href="blank.html" class="">
+                <span class="nav-icon uil uil-circle"></span>
+                <span class="menu-text">Blank Page</span>
+              </a>
+            </li>
+            <li>
+              <a href="coming-soon.html" class="">
+                <span class="nav-icon uil uil-sync"></span>
+                <span class="menu-text">Coming Soon</span>
+              </a>
+            </li>
+            <li>
+              <a href="login.html" class="">
+                <span class="nav-icon uil uil-signin"></span>
+                <span class="menu-text">Log In</span>
+              </a>
+            </li>
+            <li>
+              <a href="sign-up.html" class="">
+                <span class="nav-icon uil uil-sign-out-alt"></span>
+                <span class="menu-text">Sign Up</span>
+              </a>
+            </li>
+          </ul>
+          <!-- sidebar-img -->
+          <div
+            class="card sidebar__feature  d-flex align-items-center justify-content-center mx-20 mt-50 mb-50 text-center">
+            <h4>Start A Campaign</h4>
+            <button type="button" class="btn btn-primary inline-flex  mt-15">
+              Start Now
+            </button>
+            <div class="ps-0  mt-30 mb-0">
+              <img src="/assets/img/author/side-img.png" alt="side-img" class="mCS_img_loaded img-fluid" dir="ltr">
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- content-body -->
+    <div class="contents">
+      <div class="mb-25">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="breadcrumb-main">
+                <h3 class="text-capitalize breadcrumb-title">Email Marketing Dashboard</h3>
+                <div class="breadcrumb-action justify-content-center flex-wrap">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#"><i class="uil uil-estate"></i>Dashboard</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Demo 1</li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!-- chart -->
+            <!-- bar-chart -->
+            <div class="col-xxl-4  mb-25">
+              <div class="card border-0 h-100">
+                <div class="card-header card-header--chart  border-0">
+                  <h6 class="overflow-visible">Engagement</h6>
+                  <div class="card-extra">
+                    <div class="dm-select dm-select__card">
+                      <select name="select-1" id="select-1" class="header-drop-select form-control  ">
+                        <option value="01">January 2021</option>
+                        <option value="02">February 2021</option>
+                        <option value="03">March 2021</option>
+                        <option value="04">April 2021</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body ps-10 pe-10 pt-10 pb-0">
+                  <div id="chart" class="chart1 GroupedBarChart" dir="ltr">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- line-chart-->
+            <div class="col-xxl-8  mb-25">
+              <div class="card  border-0 h-100">
+                <div class="card-header card-header--chart border-0">
+                  <h6>Email Growth</h6>
+                  <div class="card-extra">
+                    <div class="dm-select dm-select__card">
+                      <select name="select-2" id="select-2" class="header-drop-select form-control  ">
+                        <option value="01">January 2021</option>
+                        <option value="02">February 2021</option>
+                        <option value="03">March 2021</option>
+                        <option value="04">April 2021</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body  ps-10 pe-15 pt-10 pb-0">
+                  <div id="chart" class="AreaChartBasic" dir="ltr">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- chart-end -->
+
+            <!-- cards -->
+            <div class="col-xxl-3  col-lg-6  mb-25">
+
+              <div class="ap-po-details ap-po-details--2  radius-xl d-flex justify-content-between">
+                <div class="overview-content w-100">
+                  <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
+                    <div>
+                      <div class="ap-po-details__titlebar">
+                        <p>Email Sent</p>
+                        <h1>3,397</h1>
+                      </div>
+                    </div>
+                    <div class="ap-po-details__icon-area d-flex align-items-center">
+                      <div class="svg-icon svg-icon--1 order-bg-opacity-secondary">
+                        <img src="/assets/icons/paper-plane.svg" alt="plane">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-xxl-3  col-lg-6  mb-25">
+              <!-- Card 1  -->
+              <div class="ap-po-details ap-po-details--2  radius-xl d-flex justify-content-between">
+                <div class="overview-content w-100">
+                  <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
+                    <div>
+                      <div class="ap-po-details__titlebar">
+                        <p>Open Rate</p>
+                        <h1>90.50%</h1>
+                      </div>
+                    </div>
+                    <div class="ap-po-details__icon-area d-flex align-items-center">
+                      <div class="svg-icon svg-icon--2">
+                        <img src="/assets/icons/mail.svg" alt="mail">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 1 End  -->
+            </div>
+            <div class="col-xxl-3  col-lg-6  mb-25">
+              <!-- Card 1  -->
+              <div class="ap-po-details ap-po-details--2  radius-xl d-flex justify-content-between">
+                <div class="overview-content w-100">
+                  <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
+                    <div>
+                      <div class="ap-po-details__titlebar">
+                        <p>Click Rate</p>
+                        <h1>75.90%</h1>
+                      </div>
+                    </div>
+                    <div class="ap-po-details__icon-area d-flex align-items-center">
+                      <div class="svg-icon svg-icon--3">
+                        <img src="/assets/icons/_x3C_Group_x3E__4_.svg" alt="click">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 1 End  -->
+            </div>
+            <div class="col-xxl-3  col-lg-6  mb-25">
+              <!-- Card 1  -->
+              <div class="ap-po-details ap-po-details--2  radius-xl d-flex justify-content-between">
+                <div class="overview-content w-100">
+                  <div class=" ap-po-details-content d-flex flex-wrap justify-content-between">
+                    <div>
+                      <div class="ap-po-details__titlebar">
+                        <p>Subscribes</p>
+                        <h1>2,250</h1>
+                      </div>
+                    </div>
+                    <div class="ap-po-details__icon-area d-flex align-items-center">
+                      <div class="svg-icon svg-icon--4">
+                        <img src="/assets/icons/customer.svg" alt="customer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 1 End  -->
+            </div>
+            <!-- cards-end-->
+            <!-- line-chart-->
+            <div class="col-xxl-6 mb-25">
+              <div class="card  border-0 h-100">
+                <div class="card-header card-header--chart border-0">
+                  <h6 class="overflow-visible">Bounces and Unsubscribes</h6>
+                  <div class="card-extra">
+                    <div class="dm-select dm-select__card">
+                      <select name="select-2" id="select-3" class="header-drop-select form-control">
+                        <option value="01">January 2021</option>
+                        <option value="02">February 2021</option>
+                        <option value="03">March 2021</option>
+                        <option value="04">April 2021</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body  ps-10 pe-10 pt-10 pb-0">
+                  <div id="chart" class="AreaRationChartBasic" dir="ltr">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- radial-bar-chart -->
+            <div class="col-xxl-3 mb-25">
+              <div class="card h-100  border-0">
+                <div class="card-header card-header--chart border-0">
+                  <h6>Profit Overview</h6>
+                  <div class="card-extra">
+                    <div class="dropdown dropleft">
+                      <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="/assets/img/svg/more-horizontal.svg" alt="more-horizontal" class="svg">
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                  <div id="chart" class="RadialBarChart" dir="ltr">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- radial-bar-chart-end-->
+            <!-- total-revenue -->
+            <div class="col-xxl-3 mb-25">
+              <div class="card px-20  border-0 h-100">
+                <div class="card-header card-header--chart px-0 border-0">
+                  <h6>Total Revenue</h6>
+                  <div class="card-extra">
+                    <div class="dropdown dropdown__select dropleft">
+                      <a href="#" role="button" id="action" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <img src="/assets/img/svg/more-horizontal.svg" alt="more-horizontal" class="svg">
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="action">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                  <div class="selling-table-wrap selling-table-wrap__total-revenue">
+                    <div class="table-responsive">
+                      <table class="table table--default table-borderless tr-hbr-0">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="selling-product-img d-flex align-items-center">
+                                <img class="img-fluid" src="/assets/img/table/4691307_mailchimp_icon.png" alt="champ">
+                                <span>MailChimp</span>
+                              </div>
+                            </td>
+                            <td>$1200</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="selling-product-img d-flex align-items-center">
+                                <img class="img-fluid" src="/assets/img/table/_x37_4-outlook.png" alt="outlook">
+                                <span>Outlook</span>
+                              </div>
+                            </td>
+                            <td>$459</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="selling-product-img d-flex align-items-center">
+                                <img class="img-fluid" src="/assets/img/table/7089163_gmail_google_icon.png"
+                                  alt="gmail">
+                                <span>Gmail</span>
+                              </div>
+                            </td>
+                            <td>$646</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="selling-product-img d-flex align-items-center">
+                                <img class="img-fluid" src="/assets/img/table/Path 13283.png" alt="Response">
+                                <span>Get Response</span>
+                              </div>
+                            </td>
+                            <td>$564</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="selling-product-img d-flex align-items-center">
+                                <img class="img-fluid" src="/assets/img/table/4691307_mailchimp_icon.png"
+                                  alt="mailchimp">
+                                <span>MailChimp</span>
+                              </div>
+                            </td>
+                            <td>$234</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="selling-product-img d-flex align-items-center">
+                                <img class="img-fluid" src="/assets/img/table/_x37_4-outlook.png" alt="outlook">
+                                <span>Outlook</span>
+                              </div>
+                            </td>
+                            <td>$544</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- total-revenue-end-->
+
+            <!-- email-campaign-table -->
+
+            <div class="col-12">
+              <div class="card border-0 h-100">
+                <div class="card-header card-header--chart  border-0">
+                  <h6>Email Campaign</h6>
+                  <div class="card-extra">
+                    <div class="dm-select dm-select__card">
+                      <select name="select-1" id="select-6" class="header-drop-select form-control  ">
+                        <option value="01">January 2021</option>
+                        <option value="02">February 2021</option>
+                        <option value="03">March 2021</option>
+                        <option value="04">April 2021</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body pb-20">
+                  <div class="table-responsive">
+                    <table class="table table-email">
+                      <thead>
+                        <tr>
+                          <th>No.</th>
+                          <th>Campaign Name</th>
+                          <th>Email Sent</th>
+                          <th>Open Rate </th>
+                          <th>Click Rate</th>
+                          <th>Bounce Rate</th>
+                          <th>Subscribes</th>
+                          <th>Revenue</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>01</td>
+                          <td>BFCM Offer</td>
+                          <td>3,397</td>
+                          <td>90.70%</td>
+                          <td>75.90%</td>
+                          <td>30.35%</td>
+                          <td>2,250</td>
+                          <td>$12,250</td>
+                        </tr>
+                        <tr>
+                          <td>02</td>
+                          <td>Newsletter 21</td>
+                          <td>5,345</td>
+                          <td>95.25%</td>
+                          <td>65.05%</td>
+                          <td>15.45%</td>
+                          <td>4,574</td>
+                          <td>$12,250</td>
+                        </tr>
+                        <tr>
+                          <td>03</td>
+                          <td>Special Offer</td>
+                          <td>3,485</td>
+                          <td>97.65%</td>
+                          <td>70.45%</td>
+                          <td>27.07%</td>
+                          <td>750</td>
+                          <td>$50,855</td>
+                        </tr>
+                        <tr>
+                          <td>04</td>
+                          <td>Winter Campaign</td>
+                          <td>7,123</td>
+                          <td>90.33%</td>
+                          <td>69,57%</td>
+                          <td>25.81%</td>
+                          <td>2,250</td>
+                          <td>$25,895</td>
+                        </tr>
+                        <tr>
+                          <td>05</td>
+                          <td>Holiday Gifts</td>
+                          <td>3,397</td>
+                          <td>92.55%</td>
+                          <td>65.75%</td>
+                          <td>30.35%</td>
+                          <td>1,500</td>
+                          <td>$30,000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- email-campaign-table-end-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer-warper -->
+    <footer class="footer-wrapper">
+      <div class="footer-wrapper__inside">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-copyright">
+                <div class="d-flex">© 2022<a href="#">Sovware</a></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-menu text-end">
+                <ul>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- ends: .Footer Menu -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <div class="overlay-dark-sidebar"></div>
+
+  <div class="customizer-overlay"></div>
+
+  <a href="#" class="customizer-trigger">
+    <span class="uil uil-setting"></span>
+  </a>
+
+  <div class="customizer-wrapper">
+    <div class="customizer">
+      <div class="customizer__head">
+        <h4 class="customizer__title">Customizer</h4>
+        <span class="customizer__sub-title">Customize your overview page layout</span>
+        <a href="#" class="customizer-close">
+          <img class="svg" src="/assets/img/svg/close.svg" alt="">
+        </a>
+      </div>
+      <div class="customizer__body">
+        <div class="customizer__single">
+          <h4>Layout Type</h4>
+          <ul class="customizer-list d-flex layout">
+            <li class="customizer-list__item">
+              <a href="../ltr" class="active" id="ltr-button">
+                <img src="/assets/img/customizer/ltr.png" alt="ltr">
+                <i class="la la-check-circle"></i>
+              </a>
+            </li>
+            <li class="customizer-list__item">
+              <a href="../rtl" id="rtl-button" class="">
+                <img src="/assets/img/customizer/rtl.png" alt="rtl">
+                <i class="la la-check-circle"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- ends: .customizer__single -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- page-loader -->
+
+  <div class="loader">
+    <div class="loader-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo">
+            </feColorMatrix>
+            <feBlend in="SourceGraphic" in2="goo"></feBlend>
+          </filter>
+        </defs>
+      </svg>
+      <div class="blob blob-0"></div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+      <div class="blob blob-5"></div>
+    </div>
+  </div>
+
+
+
+  <!-- js-file -->
+
+  <script src="/assets/js/jquery-3.6.0.min.js"></script>
+  <script src="/assets/js/other-js/jquery-ui.js"></script>
+  <script src="/assets/js/popper.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/other-js/daterangepicker.js"></script>
+  <script src="/assets/js/other-js/jquery.countdown.min.js"></script>
+  <script src="/assets/js/other-js/select2.full.min.js"></script>
+  <script src="/assets/js/other-js/Chart.min.js"></script>
+  <script src="/assets/js/other-js/apexcharts.min.js"></script>
+  <script src="/assets/js/other-js/trumbowyg.min.js"></script>
+  <script src="/assets/js/other-js/wickedpicker.min.js"></script>
+  <script src="/assets/js/other-js/muuri.min.js"></script>
+  <script src="/assets/js/other-js/moment.js"></script>
+  <script src="/assets/js/extra-js/page-loader.js"></script>
+
+  <!-- Main-Js -->
+  <script src="/assets/js/main.js"></script>
+  <script src="/public/js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+#chart .apexcharts-tooltip {
+    border: 1px solid var(--border-normal);
+    box-shadow: 0 10px 20px rgba(var(--color-lighten), 15%);
+    transition: .50s ease-out;  
+    padding: 7px 0px 8px 0px;
+}
+
+#chart .apexcharts-tooltip:before {
+    content: '';
+    position: absolute;
+   
+}
+
+#chart .apexcharts-tooltip-title {
+    font-weight: 500;
+    background: none;
+    border-bottom: none;
+    padding: 5px 23px 0px 10px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #110626;
+    margin: 0px;
+}
+
+#chart .apexcharts-tooltip-series-group {
+    padding: 0px 22px 0px  10px;
+}
+
+#chart .apexcharts-tooltip-marker {
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    
+}
+
+#chart .apexcharts-tooltip-y-group  {
+    font-size: 14px;
+    color: #525768;
+    padding: 4px;
+}
+#chart .apexcharts-tooltip-text-y-value {
+    font-weight: 500;
+    color: #525768;
+}
+#chart .apexcharts-tooltip-text-y-label {
+    color: #525768;
+}
+
+
+.apexcharts-series .apexcharts-bar-area:hover {
+    fill: #7811FF !important; /* Replace with your desired hover color */
+}
+
+.apexcharts-series + .apexcharts-series .apexcharts-bar-area:hover {
+    fill: #00AAFF !important; /* Replace with your desired hover color */
+}
+
+.apexcharts-radialbar .apexcharts-text .apexcharts-datalabel-label {
+    line-height: 20;
+}
+
+.card-header--chart {
+    h6 {
+              
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        line-height: 24px !important;
+        color: #110626;
+        
+    }
+  }
+
+
+
+  /* Radial Chart */
+  .apexcharts-legend{
+    .apexcharts-legend-series{
+        &:first-child{
+            order: 1;
+        }
+        .apexcharts-legend-text{
+            text-transform: capitalize;
+        }
+    }
+  }
